@@ -3,12 +3,13 @@ import React, { useEffect } from 'react';
 const GoogleT = () => {
 
     useEffect(() => {
-      function googleTranslateElementInit() {
-        google.translate.TranslateElement({ 
-          pageLanguage: 'en', // Set the default language of your website
-          autoDisplay: false 
-        }, 'google_translate_element');
-      }
+          function googleTranslateElementInit() {
+            new window.google.translate.TranslateElement({
+              pageLanguage: 'en', // Set the default language of your website
+              autoDisplay: false,
+            }, 'google_translate_element');
+          }
+
       
           // Load the Google Translate API script
           const script = document.createElement('script');
