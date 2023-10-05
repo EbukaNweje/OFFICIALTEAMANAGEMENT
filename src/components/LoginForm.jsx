@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import "./LoginForm.css"
 import Axios from "axios"
 import {useNavigate} from "react-router-dom"
+import GoogleT from "./GoogleT"
 
 
 const LoginForm = () => {
@@ -76,7 +77,7 @@ const LoginForm = () => {
         <header>
             <h1>OFFICIALTEAMANAGEMENT</h1>
         </header>
-        <div id="google_translate_element"></div>
+        <GoogleT/>
         <section className="InputBox">
             <form className="InputBoxDiv">
                 <label>Name <span className="Eroo">*</span></label>
