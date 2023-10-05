@@ -115,7 +115,7 @@ label, .Pay {
 }
 
 .BtnClear {
-    width: 100px;
+    width: 130px;
     height: 40px;
     background: red;
     color: white;
@@ -123,6 +123,7 @@ label, .Pay {
     border-radius: 3px;
     cursor: pointer;
     transition: all 350ms ease-in;
+    margin-left: 10px;
 }
 
 .BtnClear:hover{
